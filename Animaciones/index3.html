@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graficos 2D con HTML y JavaScript</title>
+</head>
+<style>
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 100wh;
+        height: 95vh;
+        background-color: black;
+        display: grid;
+        place-items: center;
+        color: rgb(175, 175, 175);
+    }
+    .container {
+        width: 80%;
+        text-align: center;
+    }
+    .container * {
+        margin: 10px;
+    }
+    canvas {
+        background-color: rgba(255, 255, 255, 0.212);
+        box-shadow: 0px 0px 10px 5px lightgreen;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>Gráficos 2D con HTML y JavaScript</h1>
+        <h2>Se ha comido <span></span>pizzas</h2>
+        <canvas id="lienzo" width="600" height="400"></canvas>
+    </div>
+    <script src="./snake.js"></script>
+</body>
+</html>
